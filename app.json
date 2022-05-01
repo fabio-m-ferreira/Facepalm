@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Facepalm",
+    "slug": "facepalm",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.voydd.Facepalm",
+      "versionCode": 1
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/facepalm_logo.png",
+    "splash": {
+      "image": "./assets/facepalm_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e5e5e5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Facepalm is a social app project made in React Native and a Real-time Database, Firestore from Firebase\nThis project is a simple social app that allows a person to create a user with firebase authentication and also allows users to interact with each other\n\nThis app consists in a Profile Screen that allows the user to see his own profile that comes with information about himself, like post and friends, the user can also add or edit his background image and his avatar.\n The Home Screen contains a feed with posts that the users can create that consists in a image and discription (one of those fields must be required), in addition each post can be commented by any user\n The Users Screen contains the List of every user (except the currentUser), which allows to see other users profiles, in addition the app also as a Friend Request System, this system is capable of sending a Friend Request to a certain user, that you can accept or decline, and also, once you are a friend of a user you can remove him as a friend\nAnd for the last screen, the app contains a Chat Screen, once you are friends with a user you are allowed to talk with them using the chat"
+  }
+}
